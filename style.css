@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Mixin */
+/* Set các giá trị với màn hình tương ứng */
+/* line 28, style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 32, style.scss */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 35, style.scss */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.6;
+  padding: 6em 2em; }
+
+/* line 45, style.scss */
+.main {
+  max-width: 66em; }
+  /* line 47, style.scss */
+  .main .text-content {
+    text-align: center; }
+    /* line 49, style.scss */
+    .main .text-content span {
+      color: #4c4e61;
+      display: block;
+      font-size: 1.5rem; }
+    /* line 54, style.scss */
+    .main .text-content span.heading--light {
+      font-weight: 200; }
+    /* line 58, style.scss */
+    .main .text-content span.heading--bold {
+      font-weight: 700; }
+    /* line 61, style.scss */
+    .main .text-content p.paragraph {
+      font-weight: 400;
+      color: #a3a5ae; }
+      @media (min-width: 1024px) {
+        /* line 61, style.scss */
+        .main .text-content p.paragraph {
+          max-width: 35em;
+          margin: 0 auto;
+          margin-top: 1em; } }
+  /* line 75, style.scss */
+  .main .cards-container {
+    display: grid;
+    grid-gap: 1.8em;
+    margin-top: 4em; }
+    @media (min-width: 1024px) {
+      /* line 75, style.scss */
+      .main .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+    /* line 84, style.scss */
+    .main .cards-container .card {
+      padding: 1.6em 1.8em;
+      background-color: #fff;
+      border-radius: 5px;
+      -webkit-box-shadow: 0px 10px 12px 0 #0084ff21;
+              box-shadow: 0px 10px 12px 0 #0084ff21;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      /* line 91, style.scss */
+      .main .cards-container .card img {
+        display: block;
+        margin-top: 1.5em;
+        max-width: 3.75em;
+        max-height: 3.75em;
+        margin-left: auto; }
+      /* line 99, style.scss */
+      .main .cards-container .card .card_paragraph {
+        font-size: .8rem;
+        color: #a3a5ae;
+        line-height: 1.8; }
+        @media (min-width: 1024px) {
+          /* line 99, style.scss */
+          .main .cards-container .card .card_paragraph {
+            margin-top: 0.3em; } }
+      /* line 107, style.scss */
+      .main .cards-container .card .card__heading {
+        font-size: 1.2rem;
+        color: #4c4e61; }
+    @media (min-width: 1024px) {
+      /* line 112, style.scss */
+      .main .cards-container .card--1 {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 2; } }
+    @media (min-width: 1024px) {
+      /* line 118, style.scss */
+      .main .cards-container .card--2 {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1; } }
+    @media (min-width: 1024px) {
+      /* line 124, style.scss */
+      .main .cards-container .card--3 {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1; } }
+    @media (min-width: 1024px) {
+      /* line 130, style.scss */
+      .main .cards-container .card--4 {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 2; } }
+    /* line 136, style.scss */
+    .main .cards-container .card--cyan {
+      border-top: 4px solid #45d3d3; }
+    /* line 139, style.scss */
+    .main .cards-container .card--red {
+      border-top: 4px solid #ea5353; }
+    /* line 142, style.scss */
+    .main .cards-container .card--blue {
+      border-top: 4px solid #549ef2; }
+    /* line 145, style.scss */
+    .main .cards-container .card--orange {
+      border-top: 4px solid #fcaf4a; }
+
+/* line 151, style.scss */
+footer {
+  margin-top: 5em; }
+
+/*# sourceMappingURL=style.css.map */
